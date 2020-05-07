@@ -6,6 +6,7 @@ body,html{
   padding: 0px;
   overflow: auto;
   white-space: nowrap;
+  background-color: black;
 }
 
 .introText{
@@ -13,7 +14,7 @@ body,html{
   color: white;
   font-size: 4.5vmin;
   width: 100%;
-  padding-right: 10px;
+  background-color: black;
 }
 
 
@@ -25,6 +26,7 @@ body,html{
 
 .imgContainer{
   background-color: black;
+  display: flex;
 }
 
 .imgContainer img{
@@ -32,7 +34,6 @@ body,html{
   padding-top: 10vh;
   padding-left: 15vw;
   padding-right: 15vw;
-  position: relative;
 }
 
 .img{
